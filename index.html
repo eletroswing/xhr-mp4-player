@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 40px auto;
+            background-color: #444;
+        }
+    </style>
+</head>
+<body>
+    <!-- Normal and XHR player (still broken, and slower than default on lower connections) -->
+    <div>
+        <h3>Player</h3>
+        <video id='player' controls width="300" autoplay type="video/mp4" muted src=''></video>
+    </div>
+    <div>
+        <h3>Normal</h3>
+        <video id='video' controls width="300" autoplay type="video/mp4" muted src='http://localhost:8000/video'> </video>
+    </div>
+    <script src='/base.js'></script>
+</body>
+</html>
