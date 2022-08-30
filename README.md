@@ -1,7 +1,5 @@
 # NTX-PLAYER
 
-[![CodeFactor](https://www.codefactor.io/repository/github/eletroswing/xhr-mp4-player/badge)](https://www.codefactor.io/repository/github/eletroswing/xhr-mp4-player)
-
 The goal is to make a player like streaming services, but to stream common files, such as mp4 (trying as much as possible to make it faster than the simple <video /> tag)
 
 ### Current
